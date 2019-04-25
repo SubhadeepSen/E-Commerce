@@ -1,11 +1,11 @@
-### Launch URL: http://localhost:8085/ShopNow/
+### Launch URL: `http://localhost:8085/ShopNow/`
 
 #### This is a very simple prototype of an E-Commerce application. Here one customer can register, if not registered and registered customer can login into the application for viewing the products, adding them into cart and/or can proceed further for placing the order(s) and can apply for coupon code for getting discount on total. The customer can also view the order history.
 
 #### For login into the application either you can register or you can use user Id as john and password as 12345.
-### Login URL: http://localhost:8085/ShopNow/login
+### Login URL: `http://localhost:8085/ShopNow/login`
 
-#### If you are an admin user then come back to http://localhost:8085/ShopNow/ after login for exploring the available REST services and H2 Database. The default admin user Id is sunny12345 and password is 12345.
+#### If you are an admin user then come back to `http://localhost:8085/ShopNow/` after login for exploring the available REST services and H2 Database. The default admin user Id is sunny12345 and password is 12345.
 
 ##                                               Technical Design and Description:
  
