@@ -1,0 +1,31 @@
+.quantity {
+	border: 1px solid #e7ba77;
+	border-radius: 20px;
+	color: brown;
+}
+
+.float-right {
+	float: right;
+	margin-top: 35px;
+}
+
+@media screen and (max-width: 676px) {
+	.float-right {
+		float: none;
+	}
+}
+
+.margin-top-15px {
+	margin-top: 15px;
+}
+
+.coupon {
+	color: red;
+	text-align: center;
+	margin: auto;
+	width: 250px;
+}
+
+.prod-content-height {
+	height: 180px;
+}

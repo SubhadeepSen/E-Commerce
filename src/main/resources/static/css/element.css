@@ -1,0 +1,152 @@
+body {
+	margin: 0;
+}
+
+table {
+	margin: auto;
+	margin-top: 10%;
+}
+
+.container {
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+}
+
+header {
+	height: 40px;
+	background-color: #cab578;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 20px;
+	display: flex;
+	background-color: #cab578;
+}
+
+a {
+	text-decoration: none;
+}
+
+a.nav-title {
+	font-family: sans-serif;
+	color: brown;
+	font-size: x-large;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.nav-title-width {
+	width: 25%;
+}
+
+a.nav-title:hover {
+	color: #d20606;
+	background-color: #ecd389;
+	border-radius: 10px;
+}
+
+a.nav-item {
+	font-family: sans-serif;
+	color: #257796;
+	font-size: larger;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+a.nav-item:hover {
+	color: #0c5d7b;
+	background-color: #ecd389;
+	border-radius: 10px;
+}
+
+.nav-item-width {
+	width: 75%;
+	text-align: right;
+}
+
+@media screen and (max-width: 576px) {
+	a.nav-title {
+		font-family: sans-serif;
+		font-size: larger;
+	}
+	a.nav-item {
+		font-size: small;
+	}
+}
+
+input {
+	width: 250px;
+	height: 25px;
+	border: 2px solid #259ed8;
+	border-radius: 4px;
+	padding-left: 10px;
+}
+
+input[placeholder] {
+	color: #7d0000;
+	font-family: monospace;
+	font: small-caption;
+}
+
+input:hover {
+	border: 2px solid #086b9a;
+}
+
+input[type=submit], button {
+	width: 125px;
+	height: 35px;
+	border: 2px solid #49e0a9;
+	background-color: #49e0a9;
+	border-radius: 4px;
+	font-family: monospace;
+	font: small-caption;
+	font-weight: 600;
+	color: #033686;
+}
+
+input[type=submit]:hover, button:hover {
+	border: 2px solid #2abf89;
+	background-color: #2abf89;
+}
+
+.error-message {
+	color: red;
+}
+
+.cart {
+	color: #d21d3ec7;
+}
+
+.cart-content {
+	height: 200px !important;
+	width: 200px !important;
+}
+
+.remove-cart {
+	color: #da5151;
+	float: right;
+	font-size: 20px;
+}
+
+.remove-cart:hover {
+	color: red;
+}
+
+.no-cart-item {
+	text-align: center;
+	font-size: xx-large;
+	color: brown;
+}
+
+.margin-top-5per {
+	margin-top: 5%;
+}
+
+.center {
+	text-align: center;
+}
+
+.confirmation-text {
+	font-family: monospace;;
+	font-size: 25px;
+}

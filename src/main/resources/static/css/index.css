@@ -1,0 +1,28 @@
+.project-desc {
+	margin-top: 3%;
+	text-align: justify;
+	line-height: 30px;
+	font-size: 18px;
+	color: #ad2a2a;
+}
+
+.link {
+	text-decoration: underline;
+	color: blue;
+}
+
+td {
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-top: 1px solid black;
+}
+
+img {
+	width: 100%
+}
+
+table {
+	margin-top: 0;
+}

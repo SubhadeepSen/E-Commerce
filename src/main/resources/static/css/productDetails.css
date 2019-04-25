@@ -1,0 +1,35 @@
+.prod-details {
+	color: darkcyan;
+	margin: auto;
+	width: 300px;
+	height: 200px;
+	border: 4px solid #2cbb94;
+	padding: 20px;
+	border-radius: 20px;
+	text-align: left;
+	margin-bottom: 30px;
+}
+
+.prod-desc {
+	font-family: sans-serif;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+span.title {
+	font-size: 25px;
+	font-style: italic;
+}
+
+span.description {
+	font-size: 30px;
+	padding-left: 15px;
+}
+
+.error-msg {
+	color: red;
+}
+
+.margin-top-30px {
+	margin-top: 30px;
+}

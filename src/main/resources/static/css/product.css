@@ -1,0 +1,31 @@
+.prod-content {
+	width: 155px;
+	height: 155px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	float: left;
+	margin: 4%;
+	border-radius: 10px;
+}
+
+.prod-content:hover {
+	cursor: pointer;
+	border: 1px solid #046271;
+	color: #199aaf;
+}
+
+.prod-desc {
+	text-align: center;
+	font-family: sans-serif;
+	font-size: x-large;
+	padding-top: 6px;
+	padding-bottom: 6px;
+}
+
+.left-align {
+	text-align: left;
+}
+
+a {
+	color: black;
+}

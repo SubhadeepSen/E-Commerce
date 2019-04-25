@@ -1,0 +1,18 @@
+table {
+	width: 100%;
+	margin-top: 0% !important;
+}
+
+tr {
+	border-bottom: 1px solid black;
+}
+
+td {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: 1px solid black;
+}
+
+label {
+	padding: 12px;
+}
