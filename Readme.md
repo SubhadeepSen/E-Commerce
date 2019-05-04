@@ -7,7 +7,7 @@
 
 #### If you are an admin user then come back to `http://localhost:8085/ShopNow/` after login for exploring the available REST services and H2 Database. The default admin user Id is sunny12345 and password is 12345.
 
-##                                               Technical Design and Description:
+##                                               Technical Design and Description
  
 #### This is a complete Springboot Project. In this project, I have used H2 in-memory database to create the tables with the help of Java Persistence API (JPA) and Java POJO classes(Entities). Once I'm done with creating the services to perform CRUD operations on entities, I created the REST controllers to expose these services as REST APIs with the help of springboot-web dependency. I have used springboot-security dependency to secure these API endpoints with basic authentication and swagger dependency to document these APIs.
 
