@@ -18,7 +18,7 @@ public class SwaggerConfig {
 	@Bean
 	public Docket customImplementation() {
 		return new Docket(DocumentationType.SWAGGER_2).select()
-				.apis(RequestHandlerSelectors.basePackage("sdp.shop.now.controller")).build().apiInfo(apiInfo());
+				.apis(RequestHandlerSelectors.basePackage("sdp.shop.now.rest.controller")).build().apiInfo(apiInfo());
 	}
 
 	private ApiInfo apiInfo() {

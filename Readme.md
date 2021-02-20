@@ -20,3 +20,7 @@
 ###### Java Version:	JDK 1.8
 ###### REST API Documentation: Swagger 2.7
 ###### Dependecies: spring-boot-starter-web, spring-boot-devtools, spring-boot-starter-tomcat, spring-boot-starter-data-jpa, spring-boot-starter-security, tomcat-embed-jasper, javax.servlet:jstl, com.h2database:h2, springfox-swagger2, springfox-swagger-ui
+
+
+### Swagger URL: `http://localhost:8085/ShopNow/swagger-ui.html`
+### Swagger API DOC URL: `http://localhost:8085/ShopNow/v2/api-docs`
